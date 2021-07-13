@@ -1,0 +1,161 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    
+
+}
+
+p{
+    color: #6C6C6C;
+}
+
+/* Header Part Style */
+
+
+.head-container{
+    width: 1340px;
+    height: 600px;
+    background-color: #2d25a0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.head{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin-left: 100px;
+}
+.section-title{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+}
+
+.link-button1{
+    width: 120px;
+    height: 24px;
+    background-color: #E02C6D;
+    padding: 10px 20px;
+
+}
+
+.link-button1:hover {
+    background-color: yellowgreen;
+}
+.fa-arrow-right{
+    color: white;
+    margin-left: 8px;
+}
+
+/* Main Area Styling */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container{
+    background-color: #ffffff;
+    width: 1070px;
+    padding: 30px;
+    margin-top: 21px;
+    
+}
+
+.best-players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.player{
+    box-shadow: 0px 10px 20px #929090;
+    padding: 15px;
+    margin-bottom: 27px;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.links a{
+    color: rebeccapurple;
+    display: block;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.ranking{
+    text-align: center;
+}
+
+table{
+    background-color: #2c3845;
+    color: white;
+    border-spacing: 3px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    padding: 10px 10px;
+}
+thead th, tbody td{
+    text-align: center;
+}
+thead th{
+    color: yellowgreen;
+}
+
+
