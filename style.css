@@ -228,6 +228,24 @@ footer img{
         flex-direction: column;
     }
 
+  .half-width1 img{
+      width: 250px;
+      height: 200px;
+      margin-left: -60px;
+  }
 
+  .section-title{
+      font-size: 30px;
+      line-height: 40px;
+  }
+  footer img{
+      width: 250px;
+      height: 75px;
+  }
+
+  .item1{
+      margin-left: 100px;
+      margin-bottom: 30px;
+  }
     
 }
